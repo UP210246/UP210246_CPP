@@ -2,6 +2,8 @@
 
 ## Univerisdad Politecnica de Aguascalientes 
 
-## Yahir Garcia Alba____UP210246
+### Yahir Garcia Alba_UP210246
 
-## Tecnico en Programción 
+### Tecnico en Programción 
+
+## 
