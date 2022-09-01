@@ -1,4 +1,6 @@
-# Bienvenido al repositorio de yahir
+## Bienvenido al repositorio de yahir
 Repositorio materia de programación 
-Primer comentario de la materia de programacion 
 
+
+# Univerisdad Politecnica de Aguasclientes 
+## Yahir Garcia Alba
