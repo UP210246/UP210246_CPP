@@ -2,7 +2,7 @@
 
 ## Univerisdad Politecnica de Aguascalientes 
 
-### Yahir Garcia Alba  __UP210246__
+### Yahir Garcia Alba  <strong>bold UP210246</strong>.
 
 ### Tecnico en Programción 
 
