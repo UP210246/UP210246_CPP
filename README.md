@@ -4,4 +4,4 @@ Primer comentario de la materia de programacion
 
 
 
-#.i. (.) (.)
+# .i. (.) (.)
