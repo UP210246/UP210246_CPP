@@ -1,6 +1,7 @@
-## Bienvenido al repositorio de yahir
-Repositorio materia de programación 
+# Bienvenido al repositorio de Yahir
 
+## Univerisdad Politecnica de Aguascalientes 
 
-# Univerisdad Politecnica de Aguasclientes 
-## Yahir Garcia Alba
+## Yahir Garcia Alba ### UP210246
+
+## Tecnico en Programción 
