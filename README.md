@@ -9,5 +9,5 @@
 <ol>
   <li>Primer Cuatrimestre</li>
   <li>Segundo Cuatrimestre</li>
-  <li>Tercer Cuatrimestre/li>
+  <li>Tercer Cuatrimestre</li>
 </ol>
