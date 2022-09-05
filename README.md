@@ -11,3 +11,6 @@
   <li>Segundo Cuatrimestre</li>
   <li>Tercer Cuatrimestre</li>
 </ol>
+
+
+![Descripción de la imagen](/imagenes/images.jpeg)
