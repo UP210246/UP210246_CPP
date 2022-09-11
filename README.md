@@ -1,6 +1,6 @@
 [![repo-arriba.png](https://i.postimg.cc/WbgK5kG9/repo-arriba.png)](https://postimg.cc/KRcJz4sL)
 
-# Bienvenido al repositorio de Yahir
+## Bienvenido al repositorio de Yahir
 
 ## Univerisdad Politecnica de Aguascalientes 
 
