@@ -16,16 +16,16 @@
 
 ![Descripción de la imagen](/imagenes/images.jpeg)
 
-#### Correos 
+### Correos 
 
-##### Mi Institucional: up210246@alumnos.upa.edu.mx 
+#### Mi Institucional: up210246@alumnos.upa.edu.mx 
 
-##### Mi Personal: garciayahir443@gmail.com
-
-
-#### Redes sociales 
+#### Mi Personal: garciayahir443@gmail.com
 
 
-Mi Facebook presiona [Aquí](https://www.instagram.com/yahir_alba_/). </p>
-Mi Instagram presiona [Aquí](https://www.facebook.com/yahir.garciaalba/).
+### Redes sociales 
+
+
+Mi Instagram presiona [Aquí](https://www.instagram.com/yahir_alba_/). </p>
+Mi Facebook presiona [Aquí](https://www.facebook.com/yahir.garciaalba/).
 
