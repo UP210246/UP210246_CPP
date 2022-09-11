@@ -15,7 +15,7 @@
   <li>U4 Files and arrays</li>
 </ol>
 
-![siuu](imagenes/images.jpeg =250x)
+![siuu](imagenes/images.jpeg )
 
 ### Correos 
 
