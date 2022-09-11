@@ -1,4 +1,4 @@
-[![repo-arriba.png](https://i.postimg.cc/WbgK5kG9/repo-arriba.png)](https://postimg.cc/KRcJz4sL)
+[![repo-arriba.png](https://i.postimg.cc/WbgK5kG9/repo-arriba.png)](https://postimg.cc/KRcJz4sL =100x20)
 
 # Bienvenido al repositorio de Yahir
 
