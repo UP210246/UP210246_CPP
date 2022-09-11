@@ -1,4 +1,4 @@
-[![repo-arriba.png](https://i.postimg.cc/WbgK5kG9/repo-arriba.png =250x)](https://postimg.cc/KRcJz4sL)
+[![repo-arriba.png](https://i.postimg.cc/WbgK5kG9/repo-arriba.png)](https://postimg.cc/KRcJz4sL)
 
 # Bienvenido al repositorio de Yahir
 
@@ -14,9 +14,6 @@
   <li>U3 Functions</li>
   <li>U4 Files and arrays</li>
 </ol>
-
-
-![Descripción de la imagen](/imagenes/images.jpeg)
 
 ### Correos 
 
