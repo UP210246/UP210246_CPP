@@ -18,6 +18,6 @@
 
 #### Redes sociales 
 
-Mi Facebook preciona [Aquí](https://www.instagram.com/yahir_alba_/). <pre>
-Mi Instagram [Aquí](https://www.facebook.com/yahir.garciaalba/).
+Mi Facebook preciona [Aquí](https://www.instagram.com/yahir_alba_/). </p>
+Mi Instagram preciona [Aquí](https://www.facebook.com/yahir.garciaalba/).
 
