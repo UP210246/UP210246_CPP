@@ -18,6 +18,6 @@
 
 #### Redes sociales 
 
-My favorite search engine is [Instagram](https://www.instagram.com/yahir_alba_/).
-My favorite search engine is [Facebook](https://www.facebook.com/yahir.garciaalba/).
+Mi Facebook preciona [Aquí](https://www.instagram.com/yahir_alba_/). <pre>
+Mi Instagram [Aquí](https://www.facebook.com/yahir.garciaalba/).
 
