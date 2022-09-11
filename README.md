@@ -25,7 +25,7 @@
 
 #### Redes sociales 
 
-```bash
+
 Mi Facebook presiona [Aquí](https://www.instagram.com/yahir_alba_/). </p>
 Mi Instagram presiona [Aquí](https://www.facebook.com/yahir.garciaalba/).
-```
+
