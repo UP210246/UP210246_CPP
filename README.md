@@ -1,4 +1,4 @@
-[![repo-arriba.png](https://i.postimg.cc/WbgK5kG9/repo-arriba.png =100x20)](https://postimg.cc/KRcJz4sL)
+[![repo-arriba.png](https://i.postimg.cc/WbgK5kG9/repo-arriba.png alt="drawing" width="200")](https://postimg.cc/KRcJz4sL)
 
 # Bienvenido al repositorio de Yahir
 
@@ -16,7 +16,7 @@
 </ol>
 
 
-![Descripción de la imagen](/imagenes/images.jpeg =100x20)
+![Descripción de la imagen](/imagenes/images.jpeg)
 
 ### Correos 
 
