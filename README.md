@@ -1,4 +1,4 @@
-[![repo-arriba.png](https://i.postimg.cc/WbgK5kG9/repo-arriba.png)](https://postimg.cc/KRcJz4sL)
+
 
 <img src=(https://i.postimg.cc/WbgK5kG9/repo-arriba.png)](https://postimg.cc/KRcJz4sL) width="200">
 
