@@ -20,6 +20,8 @@
 |Correos                                       |  Redes sociales                                                         |
 |:-------------------------------------------- |:------------------------------------------------------------------------|
 |Mi Institucional: up210246@alumnos.upa.edu.mx | Mi Instagram presiona [Aquí](https://www.instagram.com/yahir_alba_/).   |
+|Mi Personal: garciayahir443@gmail.com         | Mi Facebook presiona [Aquí](https://www.facebook.com/yahir.garciaalba/).|
+
 
 # Mi novia hermosa ♥
 
