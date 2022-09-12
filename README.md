@@ -9,14 +9,14 @@
 ### Tecnico en Programción 
 
 <ol>
-  <li>U1 Programming introduction</li>
-  <li>U2 Control structures and cycles</li>
-  <li>U3 Functions</li>
-  <li>U4 Files and arrays</li>
+  ><li>U1 Programming introduction</li>
+  ><li>U2 Control structures and cycles</li>
+  ><li>U3 Functions</li>
+  ><li>U4 Files and arrays</li>
 </ol>
 
 ### Clonacion de Repo
->https://github.com/UP210246/UP210246_CPP.git
+>  <pre>https://github.com/UP210246/UP210246_CPP.git
 
 |Correos                                       |  Redes sociales                                                         |
 |:-------------------------------------------- |:------------------------------------------------------------------------|
