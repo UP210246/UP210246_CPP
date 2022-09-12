@@ -24,7 +24,3 @@
 |Mi Personal: garciayahir443@gmail.com         | Mi Facebook presiona [Aquí](https://www.facebook.com/yahir.garciaalba/).|
 
 
-# Mi novia hermosa ♥
-
-[![Whats-App-Image-2022-09-11-at-12-19-56.jpg](https://i.postimg.cc/brHfZCRt/Whats-App-Image-2022-09-11-at-12-19-56.jpg)](https://postimg.cc/H8xhKtRY)
-
