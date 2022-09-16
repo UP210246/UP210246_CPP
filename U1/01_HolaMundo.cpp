@@ -1,6 +1,6 @@
 /* Unidad 1. Hola mundo
-   Autor: Luis Ernesto Anaya Tiscareño
-   Fecha: 01/09/2022
+   Autor: Yahir Garcia Alba
+   Fecha: 16/09/2022
    Descripción: Imprime en pantalla un texto 
 */
 
