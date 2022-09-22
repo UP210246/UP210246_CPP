@@ -27,26 +27,21 @@ int main(){
 
     cout << "\n";
 
-    if (rentaCasa >0 && rentaCasa <= 10000 )
-      impuestoCasa = 0.05;
-    else if (rentaCasa>=10000 && rentaCasa <= 20000 )
-     impuestoCasa = 0.15;
-    else if (rentaCasa>=20000 && rentaCasa <= 35000 )
-      impuestoCasa = 0.20;
-    else if (rentaCasa>=35000 && rentaCasa <= 60000 )
-      impuestoCasa = 0.30;
-    else if (rentaCasa > 60000 )
-      impuestoCasa = 0.45;
+        if (rentaCasa >0 && rentaCasa <= 10000 )
+            impuestoCasa = 0.05;
+        else if (rentaCasa>=10000 && rentaCasa <= 20000 )
+            impuestoCasa = 0.15;
+        else if (rentaCasa>=20000 && rentaCasa <= 35000 )
+            impuestoCasa = 0.20;
+        else if (rentaCasa>=35000 && rentaCasa <= 60000 )
+            impuestoCasa = 0.30;
+        else if (rentaCasa > 60000 )
+            impuestoCasa = 0.45;
 
     impuestoCasaTotal=impuestoCasa*100;
-    
     cout << "El impuesto es del " << impuestoCasaTotal << " % \n" << endl;
-    
     montoCasas=(rentaCasa*impuestoCasa);
-
     cout << "El monto del porcentaje:" << montoCasas << "\n" << endl;
-
     montoCasasTotal=(montoCasas+rentaCasa);
-
     cout << "Monto de renta con porcentaje: " << montoCasasTotal << "\n" << endl;
 }
