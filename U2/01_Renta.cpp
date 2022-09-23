@@ -42,9 +42,9 @@ int main(){
             impuestoCasa = 0.45;
 
     impuestoCasaTotal=impuestoCasa*100;
-    cout << "El impuesto es del " << impuestoCasaTotal << " % \n" << endl;
+    cout << "El impuesto es del " << impuestoCasaTotal << "% \n" << endl;
     montoCasas=(rentaCasa*impuestoCasa);
-    cout << "El monto del porcentaje:" << montoCasas << "\n" << endl;
+    cout << "El monto del porcentaje: $" << montoCasas << "\n" << endl;
     montoCasasTotal=(montoCasas+rentaCasa);
-    cout << "Monto de renta con porcentaje: " << montoCasasTotal << "\n" << endl;
+    cout << "Monto de renta con porcentaje: $" << montoCasasTotal << "\n" << endl;
 }
