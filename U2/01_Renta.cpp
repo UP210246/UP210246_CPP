@@ -25,11 +25,14 @@ int main(){
     float montoCasas;
     float montoCasasTotal;
 
+    //preguntar por precio de renta 
     cout << "Ingrese la renta de su casa ";
     cin >> rentaCasa;
 
+    //salto de linea
     cout << "\n";
 
+        //renta de casa para saber porcentaje
         if (rentaCasa >0 && rentaCasa <= 10000 )
             impuestoCasa = 0.05;
         else if (rentaCasa>=10000 && rentaCasa <= 20000 )
@@ -41,10 +44,14 @@ int main(){
         else if (rentaCasa > 60000 )
             impuestoCasa = 0.45;
 
+
+    //Impuesto de la casa en porcentaje
     impuestoCasaTotal=impuestoCasa*100;
-    cout << "El impuesto es del " << impuestoCasaTotal << "% \n" << endl;
+    cout << "El impuesto es del " << impuestoCasaTotal << " % \n" << endl;
+    //monte de porcentaje envace a la renta
     montoCasas=(rentaCasa*impuestoCasa);
     cout << "El monto del porcentaje: $" << montoCasas << "\n" << endl;
+    //renta mas porcetaje 
     montoCasasTotal=(montoCasas+rentaCasa);
     cout << "Monto de renta con porcentaje: $" << montoCasasTotal << "\n" << endl;
 }

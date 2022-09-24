@@ -25,7 +25,7 @@ pantalla el tipo impositivo que le corresponde.
 
 ```C++
 
-#include <iostream>
+    #include <iostream>
 
     using namespace std;
 
@@ -36,11 +36,14 @@ pantalla el tipo impositivo que le corresponde.
         float montoCasas;
         float montoCasasTotal;
 
+        //preguntar por precio de renta 
         cout << "Ingrese la renta de su casa ";
         cin >> rentaCasa;
 
+        //salto de linea
         cout << "\n";
 
+            //renta de casa para saber porcentaje
             if (rentaCasa >0 && rentaCasa <= 10000 )
                 impuestoCasa = 0.05;
             else if (rentaCasa>=10000 && rentaCasa <= 20000 )
@@ -52,12 +55,36 @@ pantalla el tipo impositivo que le corresponde.
             else if (rentaCasa > 60000 )
                 impuestoCasa = 0.45;
 
+
+        //Impuesto de la casa en porcentaje
         impuestoCasaTotal=impuestoCasa*100;
         cout << "El impuesto es del " << impuestoCasaTotal << "% \n" << endl;
+        //monte de porcentaje envace a la renta
         montoCasas=(rentaCasa*impuestoCasa);
         cout << "El monto del porcentaje: $" << montoCasas << "\n" << endl;
+        //renta mas porcetaje 
         montoCasasTotal=(montoCasas+rentaCasa);
         cout << "Monto de renta con porcentaje: $" << montoCasasTotal << "\n" << endl;
     }
-
 ```
+
+### EXPLICACION
+
+<pre>
+Lo que hace este programa es primero pedir la renta de una casa despues evaluar en que rango esta el precio dado por el usuario y asi con unos if anidados poder determinar cual sera su respectivo porcentaje .
+
+Como resutado da la renta, porcentaje, porcentaje de la renta y suma de la renta y el porcentaje de renta.
+</pre>
+
+### Pruebas
+<br>
+
+#### Entrada con $7000
+
+#### Entrada con $15000
+
+#### Entrada con $25000
+
+#### Entrada con $45000
+
+#### Entrada con $65000
