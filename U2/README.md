@@ -78,13 +78,17 @@ Como resutado da la renta, porcentaje, porcentaje de la renta y suma de la renta
 
 ### Pruebas
 <br>
-
 #### Entrada con $7000
+![7000](/imagenes/7000.png "imagen de 7000")
 
 #### Entrada con $15000
+![15000](/imagenes/15000.png "imagen de 15000")
 
 #### Entrada con $25000
+![25000](/imagenes/25000.png "imagen de 25000")
 
 #### Entrada con $45000
+![45000](/imagenes/45000.png "imagen de 45000")
 
 #### Entrada con $65000
+![65000](/imagenes/65000.png "imagen de 65000")
