@@ -78,6 +78,7 @@ Como resutado da la renta, porcentaje, porcentaje de la renta y suma de la renta
 
 ### Pruebas
 <br>
+
 #### Entrada con $7000
 ![7000](/imagenes/7000.png "imagen de 7000")
 
