@@ -71,7 +71,9 @@ pantalla el tipo impositivo que le corresponde.
 ### EXPLICACION
 
 <pre>
-Lo que hace este programa es primero pedir la renta de una casa despues evaluar en que rango esta el precio dado por el usuario y asi con unos if anidados poder determinar cual sera su respectivo porcentaje .
+Lo que hace este programa es primero pedir la renta de una casa despues evaluar en que 
+rango esta el precio dado por el usuario y asi con unos if anidados poder determinar 
+cual sera su respectivo porcentaje .
 
 Como resutado da la renta, porcentaje, porcentaje de la renta y suma de la renta y el porcentaje de renta.
 </pre>
