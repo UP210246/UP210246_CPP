@@ -185,8 +185,8 @@ int main()
 <br>
 
 #### Entry with 0.0
-!0](/imagenes/0.0.png "image of 0.0")
+![0](/imagenes/0.0.png "image of 0.0")
 #### Entry with 0.4
-!6](/imagenes/0.4.png "image of 0.0")
+![6](/imagenes/0.4.png "image of 0.0")
 #### Entry with 0.6 to 1
-!8](/imagenes/0.8.png "image of 0.8")
+![8](/imagenes/0.8.png "image of 0.8")
