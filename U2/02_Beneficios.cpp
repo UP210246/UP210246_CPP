@@ -18,46 +18,50 @@ as well as the amount of money the user will receive.
 
 using namespace std;
 
-int main(){
+int main()
+{
 
-    double puntuacion;
-    float pago;
-    double beneficio;
+  double puntuacion;
+  float pago;
+  double beneficio;
 
-    pago = 2400;
-    
-    //preguntar por la puntuacion  
-    cout << "Enter your score obtained 0.0,0.4 or 0.6 or more ";
-    cin >> puntuacion;
+  pago = 2400;
 
-    //salto de linea
-    cout << "\n";
+  // preguntar por la puntuacion
+  cout << "Enter your score obtained 0.0,0.4 or 0.6 or more ";
+  cin >> puntuacion;
 
-  if (puntuacion == 0.0 ){
+  // salto de linea
+  cout << "\n";
+
+  // validates user values ​​and determines
+  if (puntuacion == 0.0)
+  {
     cout << "The score is unacceptable" << endl;
-   }   
-   else if (puntuacion == 0.4 ){
+  }
+  else if (puntuacion == 0.4)
+  {
     cout << "The score is acceptable" << endl;
-   }
-    else if (puntuacion >= 0.6 && puntuacion <= 1){
+  }
+  else if (puntuacion >= 0.6 && puntuacion <= 1)
+  {
     cout << "The score is Merit" << endl;
-   }
+  }
 
-   
-    // line break
-    cout << "\n";
-    
-    if ((puntuacion == 0.0)||( puntuacion == 0.4 )||(puntuacion >= 0.6)){
-        beneficio = pago*puntuacion;
-        cout << "The amount you will receive is: $" << beneficio << endl;
-    }
+  // line break
+  cout << "\n";
 
-    //Exercise: use the different comparisons ==, !=, <, >, <=, >=
+  // makes payment score
+  if ((puntuacion == 0.0) || (puntuacion == 0.4) || (puntuacion >= 0.6))
+  {
+    beneficio = pago * puntuacion;
+    cout << "The amount you will receive is: $" << beneficio << endl;
+  }
 
-    
-    // line break
-    cout << "\n";
-    
-    return 0;
+  // Exercise: use the different comparisons ==, !=, <, >, <=, >=
+
+  // line break
+  cout << "\n";
+
+  return 0;
 }
- 
