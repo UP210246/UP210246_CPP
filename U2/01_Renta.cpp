@@ -25,7 +25,7 @@ int main(){
     float montoCasas;
     float montoCasasTotal;
 
-    //preguntar por precio de renta 
+    //preguntar por precio de la renta 
     cout << "Ingrese la renta de su casa ";
     cin >> rentaCasa;
 

@@ -4,7 +4,10 @@
 ## Univerisdad Politecnica de Aguascalientes 
 ### Program used for the course
 
-<center><img src="imagenes/c_logo.png" ...></center>
+<div align ="center">
+<img alt="c++" height="100" src="imagenes/c_logo.png"/>
+
+</div>
 
 ### Yahir Garcia Alba <pre><em>UP210246</em>
 
