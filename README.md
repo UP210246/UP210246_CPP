@@ -3,9 +3,9 @@
 # Welcome to the Yahir repository
 ## Univerisdad Politecnica de Aguascalientes 
 ### Program used for the course
-
+<center>
 <img alt="c++" height="100" src="imagenes/c_logo.png"/>
-
+</center>
 ### Yahir Garcia Alba <pre><em>UP210246</em>
 
 ### Programming Technician
