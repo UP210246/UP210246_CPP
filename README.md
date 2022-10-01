@@ -5,7 +5,7 @@
 ### Program used for the course
 
 <div align ="center">
-<img alt="c++" height="100" src="imagenes/c_logo.png"/>
+<img alt="c++" src="imagenes/c_logo.png"/>
 
 </div>
 
