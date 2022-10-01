@@ -12,7 +12,7 @@ int main(){
     int age;
     
     //ask about age 
-    cout << "how old are you ?";
+    cout << "how old are you ? " ;
     cin >> age;
 
     //salto de linea

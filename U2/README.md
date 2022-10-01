@@ -191,3 +191,68 @@ the money is 2400 and the money will be collected according to the bonus</pre>
 ![6](/imagenes/0.4.png "image of 0.0")
 #### Entry with 0.6 to 1
 ![8](/imagenes/0.8.png "image of 0.8")
+
+
+
+## Exercise 3
+### 02_Edades.CPP
+
+### DESCRIPTION
+
+<pre>
+Exercise 3. Write a program for a company that has game rooms for all ages and wants to automatically calculate the price to charge its customers to enter. 
+The program must ask the user for the customer's age and display the price of the ticket. 
+Yes the client is under 4 years old can enter for free, if they are between 4 and 18 years old they must pay $5 and if they are over 18 years old, $10.
+</pre>
+
+### PROGRAM
+```C++
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+    int age;
+    
+    //ask about age 
+    cout << "how old are you ?";
+    cin >> age;
+
+    //salto de linea
+    cout << "\n";
+
+  // valid the number ang give a result
+  if (age <= 3){
+    cout << "Your ticket is free " << endl;
+   }   
+   else if (age >= 4 && age <=18  ){
+    cout << "Your ticket is 5 pesos" << endl;
+   }
+    else if (age >= 19 ){
+    cout << "Your ticket is 10 pesos" << endl;
+   }
+    // line break
+    cout << "\n";
+    
+    return 0;
+}
+```
+### EXPLANATION
+
+<pre>
+what this program does is that with the variable it does the whole program, first it asks what the age is, then it puts it in the if and it already validates all the situations that you can do.
+In this case it is better than 4 years they enter for free, older than 4 years and under 18 its cost is 5 pesos and over 18 the entrance is 10 pesos
+</pre>
+
+### TESTS
+<br>
+
+#### Entry with less 4
+![3](/imagenes/3.png "image of 3")
+#### Entry between 4 and 18
+![12](/imagenes/12.png "image of 12")
+#### Entry with more 18
+![20](/imagenes/20.png "image of 20")
+
+
