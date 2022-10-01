@@ -177,9 +177,10 @@ int main()
   return 0;
 }
 ```
-### EXPlANATION
+### EXPLANATION
 
-<pre>Receiving a bonus for the work done depending on the percentage obtained, which are 0.0, 0.4 and 0.6 up to 1 and the money is 2400 and the money will be collected according to the bonus</pre>
+<pre>Receiving a bonus for the work done depending on the percentage obtained, which are 0.0, 0.4 and 0.6 up to 1 and 
+the money is 2400 and the money will be collected according to the bonus</pre>
 
 ### TESTS
 <br>

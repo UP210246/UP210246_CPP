@@ -1,12 +1,14 @@
 [![repo-arriba.png](https://i.postimg.cc/WbgK5kG9/repo-arriba.png)](https://postimg.cc/KRcJz4sL)
 
-# Bienvenido al repositorio de Yahir
-
+# Welcome to the Yahir repository
 ## Univerisdad Politecnica de Aguascalientes 
+### Program used for the course
+
+<img alt="c++" height="100" src="imagenes/c_logo.png"/>
 
 ### Yahir Garcia Alba <pre><em>UP210246</em>
 
-### Tecnico en Programción 
+### Programming Technician
 
 <ol>
   <li>U1 Programming introduction</li>
@@ -15,12 +17,12 @@
   <li>U4 Files and arrays</li>
 </ol>
 
-### Clonacion de Repo
+### Repo Cloning
 >  <pre>https://github.com/UP210246/UP210246_CPP.git
 
 |Correos                                       |  Redes sociales                                                         |
 |:-------------------------------------------- |:------------------------------------------------------------------------|
-|Mi Institucional: up210246@alumnos.upa.edu.mx | Mi Instagram presiona [Aquí](https://www.instagram.com/yahir_alba_/).   |
-|Mi Personal: garciayahir443@gmail.com         | Mi Facebook presiona [Aquí](https://www.facebook.com/yahir.garciaalba/).|
+|My Institutional: up210246@alumnos.upa.edu.mx | My Instagram click [here](https://www.instagram.com/yahir_alba_/).   |
+|My Personal: garciayahir443@gmail.com         | My Facebook click [here](https://www.facebook.com/yahir.garciaalba/).|
 
 
