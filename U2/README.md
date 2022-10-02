@@ -202,7 +202,9 @@ the money is 2400 and the money will be collected according to the bonus</pre>
 <pre>
 Exercise 3. Write a program for a company that has game rooms for all ages and wants to automatically calculate the price to charge its customers to enter. 
 The program must ask the user for the customer's age and display the price of the ticket. 
-Yes the client is under 4 years old can enter for free, if they are between 4 and 18 years old they must pay $5 and if they are over 18 years old, $10.
+Yes the client is under 4 years old can enter for free
+if they are between 4 and 18 years old they must pay $5 
+if they are over 18 years old, $10.
 </pre>
 
 ### PROGRAM
@@ -241,7 +243,8 @@ int main(){
 ### EXPLANATION
 
 <pre>
-what this program does is that with the variable it does the whole program, first it asks what the age is, then it puts it in the if and it already validates all the situations that you can do.
+what this program does is that with the variable it does the whole program,
+first it asks what the age is, then it puts it in the if and it already validates all the situations that you can do.
 In this case it is better than 4 years they enter for free, older than 4 years and under 18 its cost is 5 pesos and over 18 the entrance is 10 pesos
 </pre>
 
@@ -252,7 +255,136 @@ In this case it is better than 4 years they enter for free, older than 4 years a
 ![3](/imagenes/3.png "image of 3")
 #### Entry between 4 and 18
 ![12](/imagenes/12.png "image of 12")
-#### Entry with more 18
+#### Entry with vegetarian pizza with 
 ![20](/imagenes/20.png "image of 20")
+
+
+## Exercise 4
+### 02_Pizeria.CPP
+
+### DESCRIPTION
+
+<pre>
+Exercise 4. The Bella Napoli pizzeria offers vegetarian and non-vegetarian pizzas to its customers. The ingredients for each type of pizza appear below.
+- Vegetarian ingredients: Pepper and tofu.
+- Non-vegetarian ingredients: Pepperoni, Ham and Salmon.
+Write a program that asks the user if he wants a vegetarian pizza or not
+based on his answer shows him a menu with the ingredients available for him to choose from.
+You can only choose one ingredient besides the mozzarella and tomato that are in all the pizzas.
+At the end it should be shown on the screen if the chosen pizza is vegetarian or not and all the
+ingredients it contains.
+</pre>
+
+### PROGRAM
+```C++
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+    int typePizza;
+    int ingredientVegetal;
+    int ingredientNoVegetal;
+
+    cout << "MENU" << endl;
+    // salto de linea
+    cout << "\n";
+
+    cout << "Vegetarian ingredients: Pepper and tofu." << endl;
+    cout << "Non-vegetarian ingredients: Pepperoni, Ham and Salmon." << endl;
+
+    cout << "\n";
+
+    // ask about Pizza
+    cout << "Do you want vegetarian pizza?" << endl;
+    cout << "1.- vegetarian pizza " << endl;
+    cout << "2.- No vegetarian pizza " << endl;
+
+    cout << "\n";
+    //keep the variable in typepizza
+    cout << "select the type of pizza" << endl;
+    cin >> typePizza;
+
+    // line break
+    cout << "\n";
+
+    cout << "Note choose only one ingredient" << endl;
+    
+    // salto de linea
+    cout << "\n";
+
+    //validate variable if 1 or 2
+    if (typePizza == 1)
+    {
+        cout << "Vegetarian ingredients: Pepper and tofu." << endl;
+        cout << "3.-Pepper" << endl;
+        cout << "4.-tofu" << endl;
+        cin >> ingredientVegetal;
+    }
+    else if (typePizza == 2)
+    {
+        cout << "Non-vegetarian ingredients: Pepperoni, Ham and Salmon." << endl;
+        cout << "5.-Peperoni" << endl;
+        cout << "6.-Ham and Salmon" << endl;
+        cin >> ingredientNoVegetal;
+    }
+    else
+    {
+        cout << "ERROR" << endl;
+    }
+    //line break
+    cout << "\n";
+
+    // validate variable if 3 or 4
+    if (ingredientVegetal == 3)
+    {
+        cout << "Your pizza is vegetarian with Mozzarella, Tomato and Peper" << endl;
+    }
+    else if (ingredientVegetal == 4)
+    {
+        cout << "Your pizza is vegetarian with Mozzarella, Tomato and Tofu" << endl;
+    }
+    
+    // validate variable if 5 or 6
+    if (ingredientNoVegetal == 5)
+    {
+        cout << "Your pizza is non-vegetarian Mozzarella, Tomato with pepperoni" << endl;
+    }
+    else if (ingredientNoVegetal == 6)
+    {
+        cout << "Your pizza is not vegetarian Mozzarella, Tomato with Ham and Salmon" << endl;
+    }
+    cout << "\n";
+
+    return 0;
+}
+
+```
+### EXPLANATION
+
+<pre>
+First declare 3 variables one to see if you want a vegetarian pizza or not, and the other 2 is to know what to choose from that they want the pizza
+1 is to choose vegetarian pizza
+2 is to choose non-vegetarian pizza
+3 is for the Pepper ingredient
+4 is for the Tofu ingredient
+5 is for the Pepperoni ingredient
+6 is for the Ham and Salmon ingredient
+These numbers are for validation in each of the if to know what it is to know what the user wants
+</pre>
+
+### TESTS
+<br>
+
+#### Entry with vegetarian pizza with Peper
+![Peper](/imagenes/peper.png"image of peper")
+#### Entry with vegetarian pizza with Tofu
+![Tofu](/imagenes/Tofu.png "image of tofu")
+#### Entry with NO vegetarian pizza with Pepperoni 
+![pepperoni](/imagenes/pepperoni.png "image of pepperoni")
+#### Entry with NO vegetarian pizza with Ham and Salmon
+![Ham and Salmon](/imagenes/Ham.png "image of Ham")
 
 
