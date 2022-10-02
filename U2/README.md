@@ -379,7 +379,7 @@ These numbers are for validation in each of the if to know what it is to know wh
 <br>
 
 #### Entry with vegetarian pizza with Peper
-![Peper](/imagenes/peper.png"image of peper")
+![Tofu](/imagenes/pepepepeep.png "image of tofu")
 #### Entry with vegetarian pizza with Tofu
 ![Tofu](/imagenes/Tofu.png "image of tofu")
 #### Entry with NO vegetarian pizza with Pepperoni 
