@@ -22,7 +22,7 @@ int main()
     } while (contador <= 6);
 
     cout << "\n";
-    cout << "The avergange of temperature today is : " << tempAcum/6 << endl;
+    cout << "The avergangxcde of temperature today is : " << tempAcum/6 << endl;
     cout << "\n";
     cout << "The avergange of temperature maximum today is : " << temMax << endl;
     cout << "\n";
