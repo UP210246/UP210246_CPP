@@ -11,10 +11,15 @@ int main()
     float temMin = 9999;
     do
     {
+        //Ask for the temperature
         cout << "give me the temperature: ";
+        //keep the valor of temperature
         cin >> temperatura;
+        //save the value 
         tempAcum += temperatura;
+        //count down 
         contador ++;
+
         if (temperatura <= temMin )
             temMin = temperatura;
         if (temperatura >= temMax )
@@ -22,7 +27,7 @@ int main()
     } while (contador <= 6);
 
     cout << "\n";
-    cout << "The avergangxcde of temperature today is : " << tempAcum/6 << endl;
+    cout << "Today's average temperature is: " << tempAcum/6 << endl;
     cout << "\n";
     cout << "The avergange of temperature maximum today is : " << temMax << endl;
     cout << "\n";

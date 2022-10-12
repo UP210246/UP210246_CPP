@@ -388,3 +388,93 @@ These numbers are for validation in each of the if to know what it is to know wh
 ![Ham and Salmon](/imagenes/Ham.png "image of Ham")
 
 
+
+## Exercise 5
+### 05_Averge.CPP
+
+### DESCRIPTION
+
+
+<pre>
+Make a program in which you enter 6 temperatures and determine the average. 
+The lowest and the highest,and the highest.</pre>
+
+
+### PROGRAM
+
+```C++
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    int contador = 1;
+    float temperatura;
+    float tempAcum = 0;
+    float temMax = 0;
+    float temMin = 9999;
+    do
+    {
+        //Ask for the temperature
+        cout << "give me the temperature: ";
+        //keep the valor of temperature
+        cin >> temperatura;
+        //save the value 
+        tempAcum += temperatura;
+        //count down 
+        contador ++;
+
+        if (temperatura <= temMin )
+            temMin = temperatura;
+        if (temperatura >= temMax )
+            temMax = temperatura;
+    } while (contador <= 6);
+
+    cout << "\n";
+    cout << "Today's average temperature is: " << tempAcum/6 << endl;
+    cout << "\n";
+    cout << "The avergange of temperature maximum today is : " << temMax << endl;
+    cout << "\n";
+    cout << "The avergange of temperature minimal today is : " << temMin << endl;
+    cout << "\n";
+return 0;
+    
+}
+```
+
+### EXPlANATION
+
+<pre>
+we first realized that this work had to be done with a do while.
+we declare a counter variable for the counter
+temperature to save user temperature
+Tempacum to accumulate temperatures
+temMax for maximum temperature
+temMin for minimum temperature
+Enter the temperature to cycle for 6 times
+It saves it in the accumulator and this accumulator validates it with maximum temperature and equals it to 0 and minimum temperature and equals it to 9999 to determine which temperature is higher or lower
+</pre>
+
+### TESTS
+<br>
+
+#### Entry with $7000
+![7000](/imagenes/7000.png "imagen de 7000")
+
+#### Entry with $15000
+![15000](/imagenes/15000.png "imagen de 15000")
+
+#### Entry with $25000
+![25000](/imagenes/25000.png "imagen de 25000")
+
+#### Entry with $45000
+![45000](/imagenes/45000.png "imagen de 45000")
+
+#### Entry with $65000
+![65000](/imagenes/65000.png "imagen de 65000")
+
+
+<br>
+<br>
+<br>
