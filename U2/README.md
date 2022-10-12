@@ -78,7 +78,6 @@ As a result, it gives the rent, percentage, percentage of the rent and sum of th
 </pre>
 
 ### TESTS
-<br>
 
 #### Entry with $7000
 ![7000](/imagenes/7000.png "imagen de 7000")
@@ -183,7 +182,6 @@ int main()
 the money is 2400 and the money will be collected according to the bonus</pre>
 
 ### TESTS
-<br>
 
 #### Entry with 0.0
 ![0](/imagenes/0.0.png "image of 0.0")
@@ -249,7 +247,6 @@ In this case it is better than 4 years they enter for free, older than 4 years a
 </pre>
 
 ### TESTS
-<br>
 
 #### Entry with less 4
 ![3](/imagenes/3.png "image of 3")
@@ -376,7 +373,6 @@ These numbers are for validation in each of the if to know what it is to know wh
 </pre>
 
 ### TESTS
-<br>
 
 #### Entry with vegetarian pizza with Peper
 ![Tofu](/imagenes/pepepepeep.png "image of tofu")
@@ -386,7 +382,6 @@ These numbers are for validation in each of the if to know what it is to know wh
 ![pepperoni](/imagenes/pepperoni.png "image of pepperoni")
 #### Entry with NO vegetarian pizza with Ham and Salmon
 ![Ham and Salmon](/imagenes/Ham.png "image of Ham")
-
 
 
 ## Exercise 5
@@ -457,10 +452,77 @@ It saves it in the accumulator and this accumulator validates it with maximum te
 </pre>
 
 ### TESTS
-<br>
-
 #### Temperature program example
 ![Temp](/imagenes/tem.png "example")
+
+<br>
+<br>
+<br>
+
+## Exercise 6
+### 06_factura.CPP
+
+### DESCRIPTION
+
+<pre>
+Realizar un programa que lea indefinidamente cantidades de productos y su precio
+Al final indique el total de la factura. 
+Para saber que se ha terminado con la compra, se deberá
+ingresar un 0 en la cantidad.
+</pre>
+
+### PROGRAM
+```C++
+
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    int contador = 1;
+    float cantidadVendida;
+    float precioArticulo;
+    float factura;
+    float facAcum = 0;
+
+    do
+    {
+        cout << "Enter the amount sold = ";
+        cin >> cantidadVendida;
+        cout << "enter the price of the item = ";
+        cin >> precioArticulo;
+        facAcum =  cantidadVendida* precioArticulo;
+        factura = facAcum + factura ;
+        contador ++;
+
+    } while ( cantidadVendida != 0 );
+
+    cout << "\n";
+    cout << "INVOICE" << endl;
+    cout << "\n";
+    cout << "Total of the invoice $ " << factura << endl;
+    cout << "\n";
+return 0;   
+}
+```
+### EXPLANATION
+
+<pre>
+what this program does is that with the variable it does the whole program,
+first it asks what the age is, then it puts it in the if and it already validates all the situations that you can do.
+In this case it is better than 4 years they enter for free, older than 4 years and under 18 its cost is 5 pesos and over 18 the entrance is 10 pesos
+</pre>
+
+### TESTS
+
+#### Entry with less 4
+![3](/imagenes/3.png "image of 3")
+#### Entry between 4 and 18
+![12](/imagenes/12.png "image of 12")
+#### Entry with vegetarian pizza with 
+![20](/imagenes/20.png "image of 20")
+
 
 <br>
 <br>
