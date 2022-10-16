@@ -465,10 +465,10 @@ It saves it in the accumulator and this accumulator validates it with maximum te
 ### DESCRIPTION
 
 <pre>
-Realizar un programa que lea indefinidamente cantidades de productos y su precio
-Al final indique el total de la factura. 
-Para saber que se ha terminado con la compra, se deberá
-ingresar un 0 en la cantidad.
+Make a program that reads indefinitely quantities of products and their price
+At the end indicate the total of the invoice.
+To know that the purchase has been completed, you must
+enter a 0 in the amount.
 </pre>
 
 ### PROGRAM
@@ -480,6 +480,7 @@ using namespace std;
 
 int main()
 {
+    //we declare the variables
     int contador = 1;
     float cantidadVendida;
     float precioArticulo;
@@ -488,11 +489,16 @@ int main()
 
     do
     {
+        //we ask how many products you sold
         cout << "Enter the amount sold = ";
         cin >> cantidadVendida;
-        cout << "enter the price of the item = ";
+        //we ask how much the product costs
+        cout << "Enter the price of the item = ";
         cin >> precioArticulo;
+
+        //does the multiplication of product by price
         facAcum =  cantidadVendida* precioArticulo;
+        //each operation that the facAcum is doing is saved and so on until it puts a zero but this is with all the products
         factura = facAcum + factura ;
         contador ++;
 
@@ -509,21 +515,176 @@ return 0;
 ### EXPLANATION
 
 <pre>
-what this program does is that with the variable it does the whole program,
-first it asks what the age is, then it puts it in the if and it already validates all the situations that you can do.
-In this case it is better than 4 years they enter for free, older than 4 years and under 18 its cost is 5 pesos and over 18 the entrance is 10 pesos
+The user is first asked how many products they have
+then, what is the price of those products
+It will multiply and save doing this a cycle
+until the user puts zero items this cycle closes
+and at the end of gives the sum of all products.
 </pre>
 
 ### TESTS
 
-#### Entry with less 4
-![3](/imagenes/3.png "image of 3")
-#### Entry between 4 and 18
-![12](/imagenes/12.png "image of 12")
-#### Entry with vegetarian pizza with 
-![20](/imagenes/20.png "image of 20")
-
+#### Invoice example
+![invoice example](/imagenes/factura.png "image of invoice example")
 
 <br>
 <br>
 <br>
+
+## Exercise 7
+### 07_Decimalabinario.CPP
+
+### DESCRIPTION
+
+<pre>
+Write a program that converts decimal numbers to binary.
+</pre>
+
+### PROGRAM
+```C++
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int number;
+    string result;
+
+    cout << "Entry a number decimal ";
+    cin >> number;
+    do
+    {
+        if (number > 0)
+        {
+            while (number != 0)
+            {
+                // if en una linea con un else
+                //The number divided by 2 and the remainder is the one that is going to be put with a cout a "0", "1" and so on until the number is no longer divisible
+                result = (number % 2 == 0) ? "0" + result : "1" + result;
+
+                number /= 2;
+            }
+        }
+        else if (number == 0)
+        {
+            cout << "Mayor a cero";
+        }
+
+        // salto de linea
+        cout << "\n";
+    } while (number < 0);
+
+    cout << "The number in binary is: " << result << endl;
+
+    // salto de linea
+    cout << "\n";
+
+    return 0;
+}
+```
+### EXPLANATION
+
+<pre>
+The program divides the decimal number by 2 until the number is decomposed
+with two do while loops that these determine their end
+</pre>
+
+### TESTS
+
+#### Example with number 50
+![number example](/imagenes/numero.png "example")
+
+<br>
+<br>
+<br>
+
+
+## Exercise 8
+### 08_TablaMultiplicar.CPP
+
+### DESCRIPTION
+
+<pre>
+Ask what number you want to multiply and by how many times you want to multiply 
+it with this form a table.    
+</pre>
+
+### PROGRAM
+```C++
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+    int contador, i;
+    float numMult, multiplicacion, contador2;
+
+    // first it asks what number you want to multiply and saves it in the variable numMult
+    cout << "What number do you want to multiply : ";
+    cin >> numMult;
+    // salto de linea
+    cout << "\n";
+    // Then they ask how many times you want to multiply that number and save it in the variable counter 2
+    cout << "Up to what number do you want to multiply it: ";
+    cin >> contador2;
+
+    cout << "\n";
+    cout << "\n";
+    // this is for is for the accountant
+    for (contador = 1; contador <= contador2; contador++)
+    {
+        // this line does all the multiplication of each of the numbers and saves them in multiplication
+        multiplicacion = contador * numMult;
+
+        // this line is to do the construction of the table and make jumps in each step of the block
+        cout << "|";
+        for (i = 1, i = 0; i < 47; i++)
+        {
+            cout << "-";
+        }
+        cout << "|";
+        cout << "\n";
+        // this line does the printing of the table so that it is not out of date
+        cout << "|"
+             << "\t" << contador << "\t"
+             << "x"
+             << "\t" << numMult << "\t"
+             << "="
+             << "\t" << multiplicacion << "\t"
+             << "|" << endl;
+    }
+    // FOR to close the table
+    for (i = 1, i = 0; i < 49; i++)
+    {
+        cout << "-";
+    }
+    cout << "\n";
+    cout << "\n";
+
+    // Wait for the user to press a key to end the program
+    cout << "Presiona enter para terminar.";
+    int c = getchar();
+
+    // Being a function, it must return a value, in this case 0
+    return 0;
+}
+```
+### EXPLANATION
+
+<pre>
+What this program does is that it makes a multiplication table based on the numbers that the user wants and the times he wants to multiply them
+</pre>
+
+### TESTS
+
+#### Example of multiplication with 5 to 12
+![number example](/imagenes/numero.png "example")
+
+<br>
+<br>
+<br>
+
