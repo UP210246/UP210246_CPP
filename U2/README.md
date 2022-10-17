@@ -682,7 +682,7 @@ What this program does is that it makes a multiplication table based on the numb
 ### TESTS
 
 #### Example of multiplication with 5 to 12
-![number example](/imagenes/numero.png "example")
+![multi](/imagenes/multi.png "example")
 
 <br>
 <br>
