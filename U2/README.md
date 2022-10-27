@@ -688,3 +688,122 @@ What this program does is that it makes a multiplication table based on the numb
 <br>
 <br>
 
+## Exercise 9
+### 09_Biseccion.CPP
+
+### DESCRIPTION
+
+<pre>
+Ask what number you want to multiply and by how many times you want to multiply 
+it with this form a table.    
+</pre>
+
+### PROGRAM
+```C++
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+
+using namespace std;
+
+double solveEquation(float worth)
+{
+    return pow(worth, 2) - worth - 12;
+}
+int main()
+{
+    double a;
+    double b;
+    double c = (a + b) / 2;
+    double ya = solveEquation(a);
+    double yb = solveEquation(b);
+    double yc = solveEquation(c);
+    float error = 0.01;
+    float noRoot = 0;
+
+    cout << "Enter the value of (a): ";
+    cin >> a;
+    cout << endl;
+    cout << "Enter the value of (b): ";
+    cin >> b;
+    cout << endl;
+        cout << "\t" << "a" << "\t"
+        << "\t" << "b" << "\t"
+        << "\t" << "c" << "\t"
+        << "\t" << "ya" << "\t"
+        << "\t" << "yb" << "\t"
+        << "\t" << "yc" << "\t" << endl;
+    cout << "________________________________________________________________________________________________" << endl;
+    cout << endl;
+
+    do
+    {
+        c = (a + b) / 2;
+        ya = solveEquation(a);
+        yb = solveEquation(b);
+        yc = solveEquation(c);
+        if (ya * yc < 0)
+        {
+            b = c;
+        }
+        else if (yc * yb < 0)
+        {
+            a = c;
+        }
+        else
+        {
+            noRoot = 1;
+        }
+        if (noRoot == 0)
+        {
+            cout << fixed;
+            cout << setprecision(3) << "\t" << a << "\t"
+            << "\t" << b << "\t"
+            << "\t" << c << "\t"
+            << "\t" << ya << "\t"
+            << "\t" << yb << "\t"
+            << "\t" << yc << "\t" << endl;
+        }
+        else
+        {
+            cout << "\t" << "No root."
+            << "\t" << "No root."
+            << "\t" << "No root."
+            << "\t" << "No root."
+            << "\t" << "No root."
+            << "\t" << "No root." << endl;
+        }
+        
+    } while ((abs(yc) >= error) && (noRoot != 1));
+
+    cout << endl;
+
+    return 0;
+}
+```
+### EXPLANATION
+
+<pre>
+
+The program uses 8 variables:
+
+solverEquation: declared as double to save a math operation.
+worth: is declared for the number of the mathematical operation.
+a: saves the first number to enter whose root you want to know.
+b: save the second number to enter whose root you want to know.
+c: saves the result of the operation performed.
+ya: saves the result of the operation performed with the first number entered by the user.
+yb: saves the result of the operation performed with the second number entered by the user.
+yc: saves the final result that determines if there is a root and what it is.
+error: determines when the program stops.\
+noRoot: determine if there is no root.
+</pre>
+
+### TESTS
+
+#### Example of multiplication with 5 to 12
+![multi](/imagenes/multi.png "example")
+
+<br>
+<br>
+<br>

@@ -1,86 +1,99 @@
-    #include <iostream>
-    #include <cmath>
 
-    using namespace std;
+#include <iostream>
+#include <cmath>
+#include <iomanip>
 
-    #include <iomanip>
+using namespace std;
 
-    float solveEquation(float worth) {
-        return pow(worth,2) - worth- 12;
-    }
-    int main(){
-    float a;
-    float b;
-    float c = (a+b)/2;
-    float ya = solveEquation(a);
-    float yb = solveEquation(b);
-    float yc = solveEquation(c);
+double solveEquation(float worth)
+{
+    return pow(worth, 2) - worth - 12;
+}
+int main()
+{
+    double a;
+    double b;
+    double c = (a + b) / 2;
+    double ya = solveEquation(a);
+    double yb = solveEquation(b);
+    double yc = solveEquation(c);
     float error = 0.01;
-    int i;
+    float noRoot = 0;
 
-    cout << "Entre a value of (a): ";
-    cin >>  a;
+    cout << "Enter the value of (a): ";
+    cin >> a;
     cout << endl;
-    cout << "Entre a value of (b): ";
-    cin >>  b;
-    cout << "\n";
-    for (i = 1, i = 0; i < 121; i++)
-    {      
-    cout << "_";
-    }
-    cout << "\n";
-    
-    cout     << "|" 
-             << "\t" << "a" << "\t"
-             << "\t" << "b" << "\t"
-             << "\t" << "c" << "\t"
-             << "\t" << "ya" << "\t" << "\t"
-             << "\t" << "yb" << "\t"
-             << "\t" << "\t" << "yc" << "\t" << "\t" 
-             << "|" << endl;
-             cout << "|";
-        for (i = 1, i = 0; i < 119; i++)
-        {
-            cout << "_";
-        }
-        cout << "|";
+    cout << "Enter the value of (b): ";
+    cin >> b;
+    cout << endl;
+    cout << "\t"
+         << "a"
+         << "\t"
+         << "\t"
+         << "b"
+         << "\t"
+         << "\t"
+         << "c"
+         << "\t"
+         << "\t"
+         << "ya"
+         << "\t"
+         << "\t"
+         << "yb"
+         << "\t"
+         << "\t"
+         << "yc"
+         << "\t" << endl;
+    cout << "________________________________________________________________________________________________" << endl;
+    cout << endl;
+
     do
     {
-            c = (a+b)/2;
-            ya = solveEquation(a);
-            yb = solveEquation(b);
-            yc = solveEquation(c);
-        if (ya*yc<0)
+        c = (a + b) / 2;
+        ya = solveEquation(a);
+        yb = solveEquation(b);
+        yc = solveEquation(c);
+        if (ya * yc < 0)
         {
             b = c;
         }
-        else if (yc*yb<0)
+        else if (yc * yb < 0)
         {
             a = c;
         }
         else
         {
-            cout << "No root.";
+            noRoot = 1;
         }
-    cout << "\n";
-    cout << fixed;
-    cout << setprecision(3)<< "|" 
-             << "\t" << a << "\t"
-             << "\t" << b << "\t"
-             << "\t" << c << "\t"
-             << "\t" << ya << "\t" << "\t"
-             << "\t" << yb << "\t"
-             << "\t" << "\t" << yc << "\t" << "\t" 
-             << "|" << endl;
-             cout << "|";
-            
-    for (i = 1, i = 0; i < 119; i++)
-            {
-                cout << "_";
-            }
-            cout << "|";
-    } while (abs(yc)>= error);
-    return 0;    
+        if (noRoot == 0)
+        {
+            cout << fixed;
+            cout << setprecision(3) << "\t" << a << "\t"
+                 << "\t" << b << "\t"
+                 << "\t" << c << "\t"
+                 << "\t" << ya << "\t"
+                 << "\t" << yb << "\t"
+                 << "\t" << yc << "\t" << endl;
+        }
+        else
+        {
+            cout << "\t"
+                 << "No root."
+                 << "\t"
+                 << "No root."
+                 << "\t"
+                 << "No root."
+                 << "\t"
+                 << "No root."
+                 << "\t"
+                 << "No root."
+                 << "\t"
+                 << "No root." << endl;
+        }
+
+    } while ((abs(yc) >= error) && (noRoot != 1));
+
+    cout << endl;
+
+    return 0;
 }
-    
-    
