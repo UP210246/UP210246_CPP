@@ -801,8 +801,9 @@ noRoot: determine if there is no root.
 
 ### TESTS
 
-#### Example of multiplication with 5 to 12
-![multi](/imagenes/multi.png "example")
+![multi](/imagenes/1_10.png "example")
+
+![multi](/imagenes/2-3.png "example")
 
 <br>
 <br>
