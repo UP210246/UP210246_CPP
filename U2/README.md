@@ -801,9 +801,10 @@ noRoot: determine if there is no root.
 
 ### TESTS
 
-![multi](/imagenes/1_10.png "example")
 
-![multi](/imagenes/2-3.png "example")
+1.![multi](/imagenes/1_10.png "example")
+
+2.![multi](/imagenes/2-3.png "example")
 
 <br>
 <br>
