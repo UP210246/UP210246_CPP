@@ -87,5 +87,55 @@ we have to consider that we cannot put LETTERS or DECIMAL NUMBERS otherwise we w
 </div>
 
 
+</br></br></br></br></br>
+<h2 align="center">
+<div>
+ <b style="color:"><i> CODE EXECUTION & EXPLANATION </div> 
+</h2></b></i>
+
+
+<br>
+<br >
+<div align="center">
+
+The game starts showing the board
+The color blue player 1
+The red player player 2
+  
+<img src="Images/Game1.PNG" height = 163>
+<img src="Images/Game0.PNG">
+</div></br></br>
+
+<div align="center">
+
+GAME STARTING MENU.  
+You  have the option to choose between gamemode 1 or 2.  
+If you choose another value other than 1 or 2, the game exits automatically.
+  
+<img src="Images/Game1.PNG" height = 163>
+<img src="Images/Game0.PNG">
+</div></br></br>
+
+
+
+<h2 align="center">
+<div>
+ <b style="color:"><i> CLOSURE </div> 
+</h2></b></i></br>
+
+In conclusion, the work was a bit complicated for me to compile all the functions, I had never worked with the functions but I was amazed at all the work you can do with them and everything you can create.
+
+The tips that the teacher gave us were also very useful, such as the colors or the arrangement of the cat, I lacked the implementation of artificial intelligence because of the times, as I said before, the compilation of this was complicated.
+
+I hope at work connect four to be able to do better with the help of my team
+</b></br></br>
+
+<h3> 
+
+[Return to index](https://github.com/UP210246/UP210246_CPP/tree/main/U3#--index--)
+
+</h3> 
+
+
 
 
