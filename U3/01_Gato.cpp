@@ -8,7 +8,7 @@ using namespace std;
 char gameArea[3][3] = {{'1', '2', '3'},
                         {'4', '5', '6'},
                         {'7', '8', '9'}};
-bool existsPlay(int play);
+bool existsPlay(int play);  
 void printmove();
 bool checkplay(int play);
 void placePlay(int play);

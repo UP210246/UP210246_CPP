@@ -22,7 +22,7 @@ UNIT 3
 <h3 style="font-family:Arial;",><b>
 
 
-<h2 style="color:#1C1B17"  > [ 1- How to run](https://github.com/UP210878/UP210878_CPP/tree/main/U3%20Functions#--how-to-run--) 
+[ 1- How to run](https://github.com/UP210878/UP210878_CPP/tree/main/U3%20Functions#--how-to-run--) 
 
 [2- Things to consider](https://github.com/UP210878/UP210878_CPP/tree/main/U3%20Functions#--things-to-consider--)  
 
@@ -32,20 +32,60 @@ UNIT 3
 
 [5- Closure](https://github.com/UP210878/UP210878_CPP/tree/main/U3%20Functions#--closure--)  
 
-</h3></b></br></br></br></br></br>
+</h3></b></br></br></br></br>
     
+<h2 align="center">
+<div>
+<b style="color:#1C1B17"><i> HOW TO RUN </div> 
+</h2></b></br></i>
+
+This cat game only has a multiplayer game mode, player 1 is x which is blue and for player 2 it is O and it is red, you can only choose the numbers from 1 to 9 and the placement is shown on the board, the player with 3 in a line wins
 
 
-<br>In this folder you will find the game "Cat Game" [(Cat.pp)](https://github.com/UP210739/UP210739_CPP/blob/main/U3/Cat.cpp)<br>        written in the C++ programming language.
-<br>In this folder you will find the game "Cat Game" [(Cat.pp)](https://github.com/UP210739/UP210739_CPP/blob/main/U3/Cat.cpp) written in the C++ programming language.
+<br>In this folder you will find the game "Gato" [(01_Gato.cpp)](https://github.com/UP210246/UP210246_CPP/blob/main/U3/01_Gato.cpp)<br>        written in the C++ programming language.
 
-<h1 align=center>
-<sub>Index</sub>
-</h1>
+<h3> 
+
+[Return to index](https://github.com/UP210246/UP210246_CPP/tree/main/U3#--index--)
+
+</h3></br></br>
+
+<h2 align="center">
+<div>
+<b style="color:#1C1B17"><i> THINGS TO CONSIDER </div> 
+</h2></b></br></i>
+
+<h3 align="center">
+<div>
+ <span style="color:red">Possible Errors</span>.</div> 
+</h3></b></b>
+
 <br>
-1. Instructions for execution, use and general considerations.
-2. Flowchart.
-3. Development and explanation of code execution.
-4. Conclusion.
-# 
-### Execution instructions
+First we know that this game is not entirely perfect
+we have to consider that we cannot put LETTERS or DECIMAL NUMBERS otherwise we would have to restart the program.
+
+<br>When the game does not ask or return anything from a winner, to play again you have to restart the program.
+<br>
+</b>
+</b>
+
+<h3> 
+
+[Return to index](https://github.com/UP210246/UP210246_CPP/tree/main/U3#--index--)
+
+</h3></br></br>
+
+
+<h2 align="center">
+<div>
+ <b style="color:"><i> FLOWCHART </div> 
+</h2></b></i>
+
+</br>
+<div align="center">
+<img alt="FlowChart" src="Imagenes/../../imagenes/diagrama.drawio.png"/>
+</div>
+
+
+
+
