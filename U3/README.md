@@ -143,6 +143,12 @@ Player 2 win
 <img src=" imagenes/../../imagenes/primera6.png"  height = 160>
  </div></br></br>
 
+<h3> 
+
+[Return to index](https://github.com/UP210246/UP210246_CPP/tree/main/U3#--index--)
+
+</h3> 
+
 <h2 align="center">
 <div>
  <b style="color:"><i> CLOSURE </div> 
