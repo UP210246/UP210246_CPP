@@ -22,15 +22,15 @@ UNIT 3
 <h3 style="font-family:Arial;",><b>
 
 
-[ 1- How to run](https://github.com/UP210878/UP210878_CPP/tree/main/U3%20Functions#--how-to-run--) 
+[ 1- How to run](https://github.com/UP210246/UP210246_CPP/tree/main/U3#-how-to-run--) 
 
-[2- Things to consider](https://github.com/UP210878/UP210878_CPP/tree/main/U3%20Functions#--things-to-consider--)  
+[2- Things to consider](https://github.com/UP210246/UP210246_CPP/tree/main/U3#-things-to-consider--)  
 
-[3- Flowchart](https://github.com/UP210878/UP210878_CPP/tree/main/U3%20Functions#--flowchart--)  
+[3- Flowchart](https://github.com/UP210246/UP210246_CPP/tree/main/U3#--flowchart--)  
 
-[4- Code execution & explanation](https://github.com/UP210878/UP210878_CPP/tree/main/U3%20Functions#--code-execution--explanation--)  
+[4- Code execution & explanation](https://github.com/UP210246/UP210246_CPP/tree/main/U3#--code-execution--explanation--)  
 
-[5- Closure](https://github.com/UP210878/UP210878_CPP/tree/main/U3%20Functions#--closure--)  
+[5- Closure](https://github.com/UP210246/UP210246_CPP/tree/main/U3#--closure--)  
 
 </h3></b></br></br></br></br>
     
@@ -61,10 +61,12 @@ This cat game only has a multiplayer game mode, player 1 is x which is blue and 
 </h3></b></b>
 
 <br>
+<pre>
 First we know that this game is not entirely perfect
 we have to consider that we cannot put LETTERS or DECIMAL NUMBERS otherwise we would have to restart the program.
 
 <br>When the game does not ask or return anything from a winner, to play again you have to restart the program.
+</pre>
 <br>
 </b>
 </b>
@@ -102,21 +104,44 @@ The game starts showing the board
 The color blue player 1
 The red player player 2
   
-<img src="Images/Game1.PNG" height = 163>
-<img src="Images/Game0.PNG">
+<img src=" imagenes/../../imagenes/primera.png "  height = 160>
 </div></br></br>
 
 <div align="center">
 
-GAME STARTING MENU.  
-You  have the option to choose between gamemode 1 or 2.  
-If you choose another value other than 1 or 2, the game exits automatically.
-  
-<img src="Images/Game1.PNG" height = 163>
-<img src="Images/Game0.PNG">
-</div></br></br>
+First move of player 1
+
+<img src=" imagenes/../../imagenes/primera2.png"  height = 160>
+ </div></br></br>
+
+<div align="center">
+
+Second move of player 2
+
+<img src=" imagenes/../../imagenes/primera3.png"  height = 160>
+ </div></br></br>
+
+<div align="center">
+
+If any of the 2 players wants to replace an occupied square, it will send them the following message "occupied box, choose another one"
+
+<img src=" imagenes/../../imagenes/primera4.png"  height = 160>
+ </div></br></br>
+
+<div align="center">
+
+Player 1 win
+
+<img src=" imagenes/../../imagenes/primera5.png"  height = 160>
+ </div></br></br>
 
 
+<div align="center">
+
+Player 2 win
+
+<img src=" imagenes/../../imagenes/primera6.png"  height = 160>
+ </div></br></br>
 
 <h2 align="center">
 <div>
