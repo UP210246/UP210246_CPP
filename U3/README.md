@@ -24,9 +24,9 @@ UNIT 3
 
 [ 1- How to run](https://github.com/UP210246/UP210246_CPP/tree/main/U3#-how-to-run--) 
 
-*   [Linux](https://github.com/UP210246/UP210246_CPP/tree/main/U3#-how-to-run--)
+*   [Linux](https://github.com/UP210246/UP210246_CPP/tree/main/U3#--linux--)
 
-*   [Windows](https://github.com/UP210246/UP210246_CPP/tree/main/U3#-how-to-run--)
+*   [Windows](https://github.com/UP210246/UP210246_CPP/tree/main/U3#--windows--)
 
 [2- Things to consider](https://github.com/UP210246/UP210246_CPP/tree/main/U3#-things-to-consider--)  
 
