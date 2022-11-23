@@ -24,6 +24,10 @@ UNIT 3
 
 [ 1- How to run](https://github.com/UP210246/UP210246_CPP/tree/main/U3#-how-to-run--) 
 
+*   [Linux](https://github.com/UP210246/UP210246_CPP/tree/main/U3#-how-to-run--)
+
+*   [Windows](https://github.com/UP210246/UP210246_CPP/tree/main/U3#-how-to-run--)
+
 [2- Things to consider](https://github.com/UP210246/UP210246_CPP/tree/main/U3#-things-to-consider--)  
 
 [3- Flowchart](https://github.com/UP210246/UP210246_CPP/tree/main/U3#--flowchart--)  
@@ -43,6 +47,34 @@ This cat game only has a multiplayer game mode, player 1 is x which is blue and 
 
 
 <br>In this folder you will find the game "Gato" [(01_Gato.cpp)](https://github.com/UP210246/UP210246_CPP/blob/main/U3/01_Gato.cpp)<br>        written in the C++ programming language.
+
+
+<h3 align="left">
+<div>
+ <b> LINUX </div> 
+</h3></b></br>
+
+1. Download or clone the directory in github. 
+   <br>https://github.com/UP210246/UP210246_CPP .</br></br>
+   
+2. First you create a folder and name it the same as the repository you are going to clone, then open the linux terminal and use the <q> git clone </q>: https://github.com/UP210246/UP210246_CPP. </br></br>
+   
+3. You can search for it from the folder or from the terminal, open it with the command: <q>code .</q> so that it opens with the [VS Studio](https://code.visualstudio.com/).
+   
+</br></br></br>
+
+<h3 align="left">
+<div>
+ <b> WINDOWS </div> 
+</h3></b></br>
+
+1. Download the [Source code](https://github.com/UP210246/UP210246_CPP/blob/main/U3/01_Gato.cpp).</br></br>
+2. You need a compiler to be able to play the game, it can be online [onlinegdb](https://www.onlinegdb.com/online_c++_compiler ).</br></br>
+3. another option is to download [VS Studio](https://code.visualstudio.com/) and copile it. </br></br>
+
+
+</br>
+
 
 <h3> 
 
